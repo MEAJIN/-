@@ -1,0 +1,22 @@
+﻿  MyForm.cpp
+X:\★★★★★★★★★★★★★\(●'◡'●)\오목눈이\2(메인)\2(메인)\re.h(7,20): error C2065: 'String': 선언되지 않은 식별자입니다.
+X:\★★★★★★★★★★★★★\(●'◡'●)\오목눈이\2(메인)\2(메인)\re.h(7,28): error C2065: 's': 선언되지 않은 식별자입니다.
+X:\★★★★★★★★★★★★★\(●'◡'●)\오목눈이\2(메인)\2(메인)\re.h(7,31): error C2065: 'string': 선언되지 않은 식별자입니다.
+X:\★★★★★★★★★★★★★\(●'◡'●)\오목눈이\2(메인)\2(메인)\re.h(7,39): error C2065: 'os': 선언되지 않은 식별자입니다.
+X:\★★★★★★★★★★★★★\(●'◡'●)\오목눈이\2(메인)\2(메인)\re.h(7,41): error C2182: 'MarshalString': 'void' 형식을 잘못 사용했습니다.
+X:\★★★★★★★★★★★★★\(●'◡'●)\오목눈이\2(메인)\2(메인)\re.h(7,43): error C2448: 'MarshalString': 함수 스타일 이니셜라이저가 함수 정의처럼 나타납니다.
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  코드를 생성하고 있습니다...
+X:\★★★★★★★★★★★★★\(●'◡'●)\오목눈이\2(메인)\2(메인)\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cpp : fatal error C1083: 컴파일러 생성 파일 파일을 열 수 없습니다. 'X:\★★★★★★★★★★★★★\(●'◡'●)\오목눈이\2(메인)\2(메인)\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.obj': Permission denied
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(518,5): error MSB6003: 지정한 작업 실행 파일 "CL.exe"을(를) 실행할 수 없습니다. System.IO.IOException: 'X:\★★★★★★★★★★★★★\(●'◡'●)\오목눈이\2(메인)\2(메인)\Debug\Project1.tlog\CL.write.1.tlog' 파일은 다른 프로세스에서 사용 중이므로 프로세스에서 액세스할 수 없습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(518,5): error MSB6003:    위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(518,5): error MSB6003:    위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(518,5): error MSB6003:    위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(518,5): error MSB6003:    위치: System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(518,5): error MSB6003:    위치: System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(518,5): error MSB6003:    위치: System.IO.File.InternalWriteAllText(String path, String contents, Encoding encoding, Boolean checkHost)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(518,5): error MSB6003:    위치: System.IO.File.WriteAllText(String path, String contents, Encoding encoding)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(518,5): error MSB6003:    위치: Microsoft.Build.Utilities.CanonicalTrackedOutputFiles.SaveTlog(DependencyFilter includeInTLog)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(518,5): error MSB6003:    위치: Microsoft.Build.CPPTasks.CL.PostExecuteTool(Int32 exitCode)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(518,5): error MSB6003:    위치: Microsoft.Build.CPPTasks.TrackedVCToolTask.ExecuteTool(String pathToTool, String responseFileCommands, String commandLineCommands)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(518,5): error MSB6003:    위치: Microsoft.Build.Utilities.ToolTask.Execute()
